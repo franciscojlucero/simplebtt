@@ -1,0 +1,6 @@
+<?php
+function simplebtt_page_bottom(array &$page_bottom) {
+  $page_bottom['simplebtt'] = ['#markup' => '<div id="sbtt"></div>'];
+  $page_bottom['#attached']['library'][] = 'simplebtt/simplebtt.theme';  
+}
+

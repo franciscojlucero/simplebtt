@@ -1,0 +1,10 @@
+name: 'Simple BTT'
+description: 'Smatwebdesign back to top functionality'
+core: 8.x
+package: custom
+type: module
+project: Simplebtt
+dependencies:
+  - libraries
+libraries:
+  - simplebtt/simplebtt

@@ -1,0 +1,11 @@
+simplebtt.theme:
+  version: VERSION
+  css:
+    theme:
+      css/simplebtt.css: {}
+  js:
+    js/simplebtt.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
